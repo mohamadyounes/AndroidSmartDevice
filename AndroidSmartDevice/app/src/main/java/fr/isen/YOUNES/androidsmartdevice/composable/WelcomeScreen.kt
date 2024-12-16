@@ -50,6 +50,7 @@ fun WelcomeScreen(navController: NavController) {
             )
         }
 
+
         // Center section: Instructions and Bluetooth Icon
         Column(
             modifier = Modifier
@@ -69,7 +70,6 @@ fun WelcomeScreen(navController: NavController) {
             )
 
             Spacer(modifier = Modifier.height(32.dp)) // Add spacing below the text
-
             // Bluetooth icon
             Image(
                 painter = painterResource(id = R.drawable.bluetooth_icon), // Load Bluetooth icon drawable resource

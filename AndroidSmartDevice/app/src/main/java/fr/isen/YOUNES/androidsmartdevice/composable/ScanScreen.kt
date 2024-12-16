@@ -82,6 +82,7 @@ fun ScanScreen(navController: NavController) {
         ) == PackageManager.PERMISSION_GRANTED
     }
 
+
     // Function to request location permission
     fun requestLocationPermission(context: Context) {
         ActivityCompat.requestPermissions(
